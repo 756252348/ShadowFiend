@@ -13,7 +13,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @SpringBootTest
-@ActiveProfiles("local")
+@ActiveProfiles("dev")
 @AutoConfigureMockMvc
 public class SmokeTest {
     @Test
