@@ -12,6 +12,7 @@
 *.iml
 *.ipr
 modules.xml
+.fleet/
 
 # CMake
 cmake-build-*/

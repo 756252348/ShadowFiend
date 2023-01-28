@@ -11,7 +11,7 @@ spring:
       ddl-auto: update
 
 logging:
-  config: classpath:logback-local.example.xml
+  config: classpath:logback-dev.xml
 
 management:
   endpoints:
